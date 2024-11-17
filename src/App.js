@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import FrontPage from './components/FrontPage';
 import About from './components/About';
+import Books from './components/Books';
+import Poems from './components/Poems';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -13,6 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
                 <Route path="/Home" element={<Home />} />
         <Route path="/about" element={<About/>}/>
+        <Route path="/books" element={<Books/>}/>
+        <Route path="/poems" element={<Poems/>}/>
       </Routes>
     </Router>
 
