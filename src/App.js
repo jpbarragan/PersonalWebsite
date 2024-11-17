@@ -5,6 +5,7 @@ import About from './components/About';
 import Books from './components/Books';
 import Poems from './components/Poems';
 import Translations from './components/Translations';
+import Contact from './components/Contact';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/books" element={<Books/>}/>
         <Route path="/poems" element={<Poems/>}/>
         <Route path="/translations" element={<Translations/>}/>
+        <Route path="/contact" element={<Contact/>}/>
 
       </Routes>
     </Router>
